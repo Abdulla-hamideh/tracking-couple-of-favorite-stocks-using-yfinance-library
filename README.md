@@ -14,10 +14,9 @@ the data derived from yahoo finance importing it from yfinance library
 4. the latest financial 
 
 
-# Further features will be included in the future 
-1. Arima prediction for the future of each stock  
-2. improve the execution time (06/01/2021 = execution time is 4min and 12 sec) 
-3. Gui 
+# Further features will be included in the future  
+1. improve the execution time (06/01/2021 = execution time is 4min and 12 sec) 
+2. Gui 
 
 # Updates 
 there will be a monthly-basis update for the code to ensure everything is running properly
