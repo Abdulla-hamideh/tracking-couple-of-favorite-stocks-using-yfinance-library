@@ -15,7 +15,7 @@ the data derived from yahoo finance importing it from yfinance library
 
 
 # Further features will be included in the future  
-1. improve the execution time (06/01/2021 = execution time is 4min and 12 sec) 
+1. improve the execution time (06/01/2021 = execution time is 4min and 12 sec); it has been improved on (06/02/2021 = excution time is 40 sec) using threading  
 2. Gui 
 
 # Updates 
