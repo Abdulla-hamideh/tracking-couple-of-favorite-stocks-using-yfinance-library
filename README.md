@@ -15,7 +15,7 @@ the data derived from yahoo finance importing it from yfinance library
 4. the latest financial 
 5. forcast for 10 days using arima function in R 
 6. GUI added for a particular stock forecast  
-7. 1. improve the execution time (06/01/2021 = execution time is 4min and 12 sec); it has been improved on (06/02/2021 = excution time is 40 sec) using threading  
+7. improve the execution time (06/01/2021 = execution time is 4min and 12 sec); it has been improved on (06/02/2021 = excution time is 40 sec) using threading  
 
 # Files 
 1. python file does the fundemental analysis and gets ratio analysis for a particular stock
