@@ -19,8 +19,10 @@ the data derived from yahoo finance importing it from yfinance library
 
 # Files 
 1. python file does the fundemental analysis and gets ratio analysis for a particular stock
-2. R file is an app for forcasting 
+2. R file is an app for forecasting 
 
 # Updates 
 there will be a monthly-basis update for the code to ensure everything is running properly
 
+# Referencing
+1. Most of the prediction code comes from https://www.youtube.com/watch?v=bCjmbLoQahs&t=217s. however i have rewritten the user interface while maintaing the style and i have fixed the forecast function and plotting in the server part.
