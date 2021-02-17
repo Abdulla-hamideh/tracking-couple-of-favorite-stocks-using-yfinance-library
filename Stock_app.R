@@ -3,7 +3,7 @@ library(shiny)
 
 ui<- shinyUI(
   dashboardPage( 
-    dashboardHeader(title= "Retail Predictive Model", titleWidth = 250),
+    dashboardHeader(title= "Stock App Prediction", titleWidth = 250),
     dashboardSidebar(
       menuItem("Sales Dashboard")
     ),
