@@ -8,7 +8,7 @@ the data derived from yahoo finance importing it from yfinance library
 4. when a stock splits happened and if the company issue dividends 
 5. forecasting using arima 
 
-# Current Features (17/02/2021)
+# Current Features (24/03/2021)
 1. plotting the whole history since (1980 and until the latest day of the stock)
 2. the whole dividend history and splits
 3. ratios that have been included (Beta, price to book, price to earnings, book value per share, Earning per share (EPS) and profit margin)
