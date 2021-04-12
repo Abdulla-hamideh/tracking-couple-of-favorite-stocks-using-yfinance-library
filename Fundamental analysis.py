@@ -44,7 +44,7 @@ max_percent = {}
 custom_percent = {}
 
 # make sure the number of stocks in stock's list is an odd number for a better analysis i.e the median function otherwise it will give an error
-stocks = ["AAPL", "MSFT", "AMZN", "TSLA", "NVDA", "FB", "GOOG", "JPM", "C", "BCS", "NFLX","BA","PFE"]
+stocks = ["AAPL", "MSFT", "AMZN", "TSLA", "NVDA", "FB", "GOOG", "JPM", "NFLX","BA","NKE","WMT","V","PYPL","BAC"]
 for s in stocks:
     ticker = yf.Ticker(s)
     # for a certain time of period use download instead of history
@@ -278,12 +278,14 @@ for E in stocks:
 
 # list to print the whole statments
 fin_state = [apple,microsoft,amazon,tesla,nvida,facebook,google,jp_Morgan,citi_bank,barclays,netflix,Other]
+stocks1 = stocks
+
 for pop in fin_state:
     # to print the name of the variable
-    for lj in stocks:
+    for lj in stocks1:
         print(lj)
         # then removing it for the list in order for the loop to break and start with new variable
-        stocks.remove(lj)
+        stocks1.remove(lj)
         # then breaking the loop to print the statement of the company
         break
     print(pop)
@@ -355,19 +357,12 @@ def for_error_ratios(dict):
             else:
                 profit_margin["an empty item just for median function for the company " + L] = 0.1111
 
-t1 = th.Thread(target=for_error_ratios(price_to_book_temp))
-t1.start()
-t2 = th.Thread(target=for_error_ratios(stock_beta_temp))
-t2.start()
-t3 = th.Thread(target=for_error_ratios(forward_pe_temp))
-t3.start()
-t4 = th.Thread(target=for_error_ratios(book_value_temp))
-t4.start()
-t5 = th.Thread(target=for_error_ratios(EPS))
-t5.start()
-t6 = th.Thread(target=for_error_ratios(profit_margin_temp))
-t6.start()
-
+for_error_ratios(price_to_book_temp)
+for_error_ratios(stock_beta_temp)
+for_error_ratios(forward_pe_temp)
+for_error_ratios(book_value_temp)
+for_error_ratios(EPS)
+for_error_ratios(profit_margin_temp)
 
 
 
