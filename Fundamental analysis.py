@@ -4,7 +4,6 @@ import yfinance as yf
 import statistics as st
 import datetime as dt
 from datetime import date
-import threading as th
 import seaborn as sns
 import numpy as np
 import plotly.express as px
